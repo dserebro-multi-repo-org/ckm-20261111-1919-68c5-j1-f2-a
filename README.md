@@ -80,3 +80,13 @@ Game state is stored in `var/data/games.json`, created automatically at runtime.
 - `config/` — Symfony configuration and routes.
 - `public/` — web entry point (`index.php`).
 - `src/` — application code (`Controller/`, `Entity/`, `Service/`).
+
+## Contributing
+
+Contributions are welcome.
+
+1. Fork the repository, or create a new branch from the main branch.
+2. Install the dependencies with `composer install` (see [Install](#install)).
+3. Keep your changes focused: one fix or feature per pull request, and follow the existing code style.
+4. Check your change manually by running the server (see [Run](#run)) and calling the endpoints with `curl`, as described in [Testing](#testing).
+5. Commit your work and open a pull request describing what changed and why.
